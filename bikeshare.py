@@ -18,7 +18,7 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
 
     while True:
-        city = input("Enter the city name please: ").lower()
+        city = input("Enter the ity name please: ").lower()
         if city not in ['chicago', 'new york city', 'washington']:
             print("Invalid input, please try again.")
 
@@ -27,10 +27,10 @@ def get_filters():
             break
 
 
-    month = input("Pleae Enter the month: ").lower()
+    month = input("Pleae enter the month: ").lower()
 
-    
-    day = input("Please Enter the day: ").lower()
+
+    day = input("Please enter the day: ").lower()
 
     print('-'*40)
 
